@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade | DPJ App</title>
+    <style>
+        /* =========================================
+           ÁREA DE CONFIGURAÇÃO DE CORES
+           ========================================= */
+        :root {
+            /* Fundo Escuro (Dark Mode) */
+            --bg-color: #f2f2f2; 
+            
+            /* Fundo do Container (Cinza escuro) */
+            --container-bg: #f2f2f2;
+
+            /* Cor do Texto (Branco gelo) */
+            --text-color: #2f2f2f;
+
+            /* COR DE DESTAQUE: VERMELHO */
+            --brand-color: #000;
+
+            --header-text-color: #f2f2f2;
+            
+            /* Cor dos Links (Azul claro para contraste) */
+            --link-color: #1f1f1f;
+        }
+
+        /* Configurações Gerais */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0; /* Removido padding do body para aproveitar largura */
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header{
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            margin-top: 2%;
+            padding: 10px 0px;
+
+        }
+
+        /* Container Centralizado */
+        .container {
+            /* AUMENTADO: Largura maior para diminuir margens laterais */
+            width: 100%; /* Ocupa 95% da tela em dispositivos menores */
+            background-color: var(--container-bg);
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        /* Tipografia - TAMANHOS AUMENTADOS */
+        h1 {
+            color: var(--brand-color);
+            font-size: 2.8rem; /* Aumentado */
+            margin-bottom: 5px;
+            text-align: center;
+            letter-spacing: -1px;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.2rem; /* Aumentado */
+            opacity: 0.8;
+            margin-bottom: 50px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 25px;
+            font-weight: 300;
+        }
+
+        h2 {
+            color: var(--brand-color);
+            margin-top: 40px;
+            font-size: 1.8rem; /* Aumentado */
+            border-left: 5px solid var(--brand-color);
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-top: 25px;
+            font-size: 1.4rem; /* Aumentado */
+            color: #000;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.05rem; /* Leve aumento para leitura */
+            text-align: justify;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 1.05rem;
+        }
+
+        strong {
+            color: #000;
+            font-weight: 700;
+        }
+
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: var(--brand-color);
+            text-decoration: underline;
+        }
+
+        /* Rodapé */
+        .footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.9rem;
+            opacity: 0.6;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 30px;
+        }
+
+        /* Responsividade para Celular */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                width: 100%;
+                margin: 0;
+                border-radius: 0;
+            }
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+            h3 { font-size: 1.2rem; }
+            p, li { text-align: left; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 style="color:var(--header-text-color)">POLÍTICA DE PRIVACIDADE E TERMOS DE USO DE DADOS</h1>
+            <div style="color:var(--header-text-color)" class="subtitle">Aplicativo DPJ App | Última atualização: 12/10/2025</div>
+        </header>
+
+        <main>
+            <h2>1. Introdução e Objetivo</h2>
+        <p>Esta Política de Privacidade tem como objetivo informar a você ("Usuário" ou "Aluno") como os seus dados pessoais e informações de saúde são coletados, utilizados, armazenados e protegidos pelo aplicativo <strong>("DPJ App")</strong>.</p>
+        <p>O Aplicativo é uma ferramenta tecnológica desenvolvida para auxiliar a prestação de serviços de condicionamento físico oferecida pelo Personal Trainer <strong>Deusmar Pereira Junqueira</strong>.</p>
+        <p>Ao realizar o login e utilizar o Aplicativo, o Usuário declara estar ciente e de acordo com os termos aqui descritos.</p>
+
+        <h2>2. Dados Coletados</h2>
+        <p>Para viabilizar a criação de treinos personalizados e o acompanhamento de resultados, o Aplicativo coleta e processa as seguintes categorias de dados:</p>
+
+        <h3>2.1. Dados Pessoais de Identificação</h3>
+        <ul>
+            <li>Nome completo;</li>
+            <li>Endereço de e-mail (para login e comunicação);</li>
+            <li>Sexo.</li>
+        </ul>
+
+        <h3>2.2. Dados Sensíveis (Saúde e Biometria)</h3>
+        <p>Conforme definido pela Lei Geral de Proteção de Dados (LGPD), tratamos os seguintes dados sensíveis estritamente para a execução do serviço contratado:</p>
+        <ul>
+            <li>Peso e Altura;</li>
+            <li>Medidas corporais (circunferências, dobras cutâneas);</li>
+            <li>Histórico de lesões ou restrições médicas informadas pelo aluno;</li>
+            <li>Frequência e histórico de treinos realizados.</li>
+        </ul>
+
+        <h3>2.3. Dados do Dispositivo e Logs (Técnicos)</h3>
+        <p>Para garantir a estabilidade do sistema e corrigir erros (bugs), podemos coletar automaticamente:</p>
+        <ul>
+            <li>Modelo do dispositivo móvel;</li>
+            <li>Versão do sistema operacional (Android/iOS);</li>
+            <li>Registros de falhas (Crash logs) e data/hora de acesso.</li>
+        </ul>
+
+        <h2>3. Finalidade do Tratamento dos Dados</h2>
+        <p>Os dados coletados têm propósitos específicos e legítimos:</p>
+        <ul>
+            <li><strong>Prestação do Serviço:</strong> Permitir que o Personal Trainer elabore, prescreva e ajuste as rotinas de treinamento.</li>
+            <li><strong>Acompanhamento de Evolução:</strong> Gerar gráficos e históricos visuais para que o usuário visualize seu progresso.</li>
+            <li><strong>Segurança:</strong> Garantir que apenas o usuário autorizado acesse sua conta.</li>
+            <li><strong>Comunicação:</strong> Enviar notificações sobre treinos, atualizações do app ou avisos do Personal Trainer.</li>
+        </ul>
+
+        <h2>4. Armazenamento e Transferência Internacional (Google Cloud)</h2>
+        <p>A infraestrutura do Aplicativo é suportada pelo <strong>Google Cloud Platform (GCP)</strong>. Isso significa que, embora a gestão seja feita no Brasil, os dados podem ser processados e armazenados em servidores seguros do Google localizados em outros países.</p>
+        <p>Ao utilizar o Aplicativo, o Usuário consente com essa transferência, ciente de que o Google adota padrões internacionais de segurança de dados (criptografia em trânsito e em repouso).</p>
+
+        <h2>5. Compartilhamento de Informações</h2>
+        <p>O Aplicativo opera em regime de privacidade fechada.</p>
+        <ul>
+            <li><strong>Não</strong> vendemos seus dados para terceiros.</li>
+            <li><strong>Não</strong> exibimos anúncios publicitários baseados no seu comportamento.</li>
+        </ul>
+        <p>O acesso aos dados é restrito a:</p>
+        <ul>
+            <li><strong>Usuário:</strong> Acesso aos seus próprios dados.</li>
+            <li><strong>Equipe do Personal Trainer:</strong> Acesso estritamente profissional para montagem dos treinos.</li>
+            <li><strong>Obrigações Legais:</strong> Caso seja requisitado por autoridade judicial competente.</li>
+        </ul>
+
+        <h2>6. Retenção e Exclusão de Dados</h2>
+        <p>Os dados serão mantidos no banco de dados do Aplicativo enquanto durar o vínculo de prestação de serviços entre o Aluno e o Personal Trainer, ou até que o Usuário solicite a exclusão.</p>
+        <p><strong>Como solicitar a exclusão:</strong> O Usuário tem o direito de solicitar a exclusão completa de sua conta e dados associados a qualquer momento. Para isso, envie um e-mail para <a href="mailto:deusmarpj@gmail.com">deusmarpj@gmail.com</a> com o assunto "Exclusão de Dados". A solicitação será atendida em até 15 dias, ressalvadas as obrigações legais de retenção.</p>
+
+        <h2>7. Isenção de Responsabilidade Médica</h2>
+        <p>O Aplicativo é uma ferramenta de suporte à atividade física. Todo o conteúdo de treino é inserido pelo profissional de Educação Física responsável.</p>
+        <ul>
+            <li>O Aplicativo, enquanto software, não fornece aconselhamento médico.</li>
+            <li>Em caso de mal-estar, dores anormais ou dúvidas de saúde, o usuário deve interromper o uso e procurar um médico imediatamente.</li>
+        </ul>
+
+        <h2>8. Alterações nesta Política</h2>
+        <p>Esta Política de Privacidade pode ser utilizada ocasionalmente para refletir melhorias no app ou mudanças na legislação. A versão mais atual estará sempre disponível no link de acesso dentro do aplicativo.</p>
+
+        <h2>9. Contato</h2>
+        <p>Para dúvidas sobre esta política ou sobre o tratamento de seus dados, entre em contato:</p>
+        <ul>
+            <li><strong>Responsável pelo Tratamento:</strong> DPJ Personal Trainer</li>
+            <li><strong>Desenvolvimento/Suporte Técnico:</strong> Bruno Santiago / Zatas ltda.</li>
+            <li><strong>E-mail:</strong> <a href="mailto:deusmarpj@gmail.com">deusmarpj@gmail.com</a>, <a href="mailto:santiago@zatas.com.br">santiago@zatas.com.br</a></li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2025 Zatas ltda. Todos os direitos reservados.
+        </div>
+    </div>
+        </main>
+
+</body>
+</html>
